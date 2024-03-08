@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.bordercheck{
+    border: #000000 solid 3px;
+    background-color: #fefae0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;    
+}
+.flex-center {
+    display: flex;
+    justify-content:center;
+}
+.flex-left {
+    display: flex;
+    justify-content:left;
+}
+.flex-between {
+    display: flex;
+    justify-content:space-between;
+}
+.gap {
+    display: flex;
+    gap: 80px;
+}
+.flex-right {
+    display: flex;
+    justify-content:right;
+}
+.btopbot{
+    border-top: #000000 2px solid;
+    border-bottom: #000000 2px solid;
+}
+body{
+    background-image: linear-gradient(to right, #faedcd , #d4a373);    /* background-color: #f3dfc1; */
+    font-family: "Poppins", sans-serif;
+    border-top-left-radius: 70px;
+}
+ul{
+    display: inline-block;
+}
+.divsize{
+    width: 100%;
+    height: 800px;
+    gap: 20px;
+}
+img:hover{
+    opacity: .8;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.5)
+}
+
+#home1{
+    background-color: rgba(254, 250, 224, 0.5);
+    border-bottom-right-radius: 60% ;
+    border-right: #000000 2px solid;
+    z-index: 0;
+}
+.bgcolor{
+    background-color: rgb(254, 250, 224,0.5);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0)
+}
+.bgcolor1{
+    background-color: rgba(250, 237, 205, 0.5);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0)
+}
+.fcolor{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.navcolor{
+    background-color: #e5e5e585;
+}
+.margin-bottom{
+    margin-bottom: 16px;
+}
+.margin-spacing-div{
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+.margin-top-button{
+    margin-top: 12%;
+}
+.margin-left{
+    margin-left: 5%;
+}
+.margin-left-high{
+    margin-left: 10%;
+}
+.margin-right{
+    margin-right: 10%;
+}
+.margin-top{
+    margin-top: 20px;
+}
+.margin-top-p{
+    margin-top: 5%;
+}
+.margin-bottom-top{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.margin-left-image{
+    margin-left: -12%;
+}
+.margin-top-min{
+    margin-top: -2.5%;
+}
+.margin-top-min-main{
+    margin-top: -1.5%;
+}
+.padding-top{
+    padding-top: 20px;
+}
+.margin-button{
+    margin: 5%;
+}
+
+.padding{
+    padding-left: 100px;
+    padding-right: 40px;
+}   
+
+#navsize{
+    font-size: 20px;
+}
+h1{
+    font-size: 100px;
+}
+.ingre-font-size{
+    font-size: 50px !important;
+}
+.ingre-font-size{
+    font-size: 23px !important;
+}
+.smaller-font-size{
+    font-size: 24px;
+}
+p{
+    text-align: justify;
+}
+
+.h1-app{
+    font-size: 10rem;
+    color: #fffafa;
+}
+.opacity-shadow{
+    opacity: .7;
+    text-shadow: 6px 0px 4px #000000;
+}
+.text-left{
+    text-align: left;
+}
+button {
+    margin-top: 8rem;
+    background-color: #e5e5e5;
+    border: none;
+    padding: 15px 32px;
+    color: black;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.larger-image-home {
+    width: 400px; /* Set the desired width */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    border-radius: 10px;
+}
+
+.larger-image {
+    width: 250px; /* Set the desired width */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    border-radius: 10px;
+}
+#divtest{
+    width: 400px;
+    height: 400px;
+}
+.shadow {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* Adjust the shadow properties as needed */
+}
+#bg1{
+    position: absolute;
+    top: 18%;
+    left: 71%;
+}
+.content{
+    z-index: 2;
+}
+#div-size{
+    height: 300px;
+    border-radius: 10px;
+    transform: scale(1); 
+    transition: transform 0.3s ease;
+}
+#div-size:hover{
+    height: 300px;
+    border-radius: 10px;
+    transform: scale(1.1); 
+
+}
+#appitizers{
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1619290463523-6d18f6a6b220?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(70%);
+    transition: filter 0.5s ease;
+    transform: scale(1); 
+    transition: transform 0.3s ease;
+}
+#appitizers:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+#maindish{
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1582391123232-6130296f1fcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(70%);
+    transition: filter 0.5s ease;
+    transform: scale(1); 
+    transition: transform 0.3s ease;
+}
+#maindish:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+#desserts{
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1617026061250-62b474264442?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(70%);
+    transition: filter 0.5s ease;
+    transform: scale(1); 
+    transition: transform 0.3s ease;
+}
+
+#desserts:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.img-loc-right{ 
+    margin-top: 50px;
+    margin-right:5%;
+}
+.img-loc-left{ 
+    margin-top: 50px;
+    margin-left:5%;
+}
+#img-desc{
+    position: relative;
+    bottom: 300px;
+}
+.button-margin-top{
+    margin-top: 10%;
+}
+.button-margin-left{
+    margin-left: 85%;
+}
+.button-margin{
+    margin-left: 50%;
+}
+.button-margin-ver{
+    margin-top: 50%;
+}
+#button-pos{
+    position: relative;
+    bottom: 250px;
+}
+#button-pos:active {
+    color: red;
+    text-decoration: underline;
+}
+#button-pos:hover {
+    color: red;
+    opacity: .7;
+}
+a:visited {
+    color: black; 
+}
+
+#adobo{
+    width: 500px; /* Set the desired width */
+    height: auto;
+}
+footer{
+    width: auto;
+    height: auto;
+}
+.font-size{
+font-size: larger;
+}
+
+.ingredients-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fefae0;
+    border: #000000 solid 2px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
+}
+.ingredientsdiv{
+    width: 1700px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: #000000 solid 2px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0)
+}
+.instructiondiv{
+    width: 1700px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: #000000 solid 2px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0)
+}
+.ease-in-animation {
+    animation: easeInAnimation 1s ease-in;
+}
+
+@keyframes easeInAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.ease-in-animation1 {
+    animation: easeInAnimation1 1s ease-in;
+}
+
+@keyframes easeInAnimation1 {
+    from {
+        opacity: 0;
+        transform: translateX(500px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.ease-in-animation2 {
+    animation: easeInAnimation2 1s ease-in;
+}
+
+@keyframes easeInAnimation2 {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.underhover:hover{
+    
+    text-decoration: underline;
+    transition: text-decoration 0.3s ease;
+}
+.scale{
+    transform: scale(1); /* Initial scale */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+.scale:hover{
+    transform: scale(1.1); /* Scale up on hover */
+}
+.text-shadow{
+    text-shadow: 10px 10px 10px #000000;
+}
+.footer {
+    margin-top: 130px;
+    background-color: rgba(51, 51, 51, 0.3); /* Change the background color as needed */
+    color: white; /* Change the text color as needed */
+    padding: 20px 0; 
+    bottom: 0;
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
