@@ -139,9 +139,9 @@ img:hover{
 h1{
     font-size: 100px;
 }
-.ingre-font-size{
+/* .ingre-font-size{
     font-size: 50px !important;
-}
+} */
 .ingre-font-size{
     font-size: 23px !important;
 }
@@ -362,7 +362,7 @@ font-size: larger;
 @keyframes easeInAnimation1 {
     from {
         opacity: 0;
-        transform: translateX(500px);
+        transform: translateX(100px);
     }
     to {
         opacity: 1;
@@ -377,6 +377,21 @@ font-size: larger;
     from {
         opacity: 0;
         transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ease-in-animation3 {
+    animation: easeInAnimation3 1s ease-in;
+}
+
+@keyframes easeInAnimation3 {
+    from {
+        opacity: 0;
+        transform: translate(-100px);
     }
     to {
         opacity: 1;
@@ -409,4 +424,7 @@ font-size: larger;
 }
 .text-center{
     text-align: center;
+}
+a{
+    text-decoration: none;
 }
